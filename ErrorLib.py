@@ -1,0 +1,2 @@
+class DuplicateIndexError(Exception):
+    pass

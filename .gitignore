@@ -1,0 +1,7 @@
+.DS_Store
+.idea/*
+__pycache__/*
+bin/*
+pip-selfcheck.json
+pyvenv.cfg
+lib/*
