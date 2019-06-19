@@ -8,11 +8,11 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
         '-b', '--baseIndexSheet', dest='base_index_sheet', required=True,
-        help="Path to the old sample sheet with index padding"
+        help="Path to the base index sheet from Clarity LIMS"
     )
     parser.add_argument(
         '-c', '--compareIndexSheet', dest='compare_index_sheet', required=True,
-        help="Path to new sample sheet with no index padding"
+        help="Path to index sheet to compare with base from Clarity LIMS"
     )
 
     args = parser.parse_args()
